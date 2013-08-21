@@ -1,0 +1,103 @@
+
+.left-column{
+	float:left;
+	min-height: 100px;
+	min-width: 440px;
+	margin-top:5px;
+	margin-left:5px;
+	padding: 5px 5px 5px 5px;
+	background-color: #fff;
+}
+.right-column{
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	margin-left:5px;
+	min-height: 230px;	
+	min-width: 240px;
+	padding:5px 5px 5px 5px;
+	background-color: #fff;
+}
+.button-holder .button{
+	float:left;
+	margin-top:5px;
+	margin-left: 2.5px;
+	height:20px;
+	width:20px;
+	background-color: red;
+}
+.avatar{
+	float:left;
+	height:100px;
+	width:100px;
+	background-color: red;
+	background: url('../images/projectavatar.png')
+}
+.project{
+	padding:5px 5px 5px 5px;
+	height: 30px;
+	width: 230px;
+	margin: 5px 0 5px 0;
+	background-color: #f4f4f4;
+}
+.mini-avatar{
+	float:left;
+	height:30px;
+	width: 30px;
+	background-color: #40acff;
+	background: url('../images/deffault-user-avatar.png')
+}	
+.project span{
+	line-height: 30px;
+	margin-left: 5px;
+	margin-top:5px;
+}
+.breakline{
+	width: 100%;
+	height: 1px;
+	background-color: #a9a9a9;
+	margin-top: 5px;
+}
+.information p{
+	padding-left: 10px;
+	font-size: 10pt;
+	width: 410px;
+	margin:5px 0;
+}
+.info {
+	line-height: 20px;
+	font-size: 12pt;
+}
+.information{
+	width:440px;
+}
+.information span{
+	font-size: 12pt;
+}
+.tag{
+	font-size: 10pt;
+	margin-left: 10px;
+}
+.technology{
+	margin-top: 10px;
+	float:left;
+	margin-left: 10px;
+	width:140px;
+}
+.progressbar{
+	float:left;
+	background-color: #e7e7e7;
+	margin-top: 10px;
+	height:25px;
+	width:290px;
+}
+.progress{
+	width:180px;
+	height:100%;
+	background-color: #40acff;
+}
+#differentprogress{
+	width:250px;
+	height:100%;
+	background-color: #40acff;
+}

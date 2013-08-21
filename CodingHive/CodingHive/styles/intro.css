@@ -1,0 +1,134 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	zoom: 1;
+}
+input{
+	border: 0;
+	outline: none;
+}
+body{
+	background: #f5f5f5;
+	font-size: 12pt;
+	font-family: 'Century Gothic';
+	color: #000;
+	background: url('../images/bg-pattern.png');
+}
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	background: url('../images/bg-image.png') no-repeat center 100px;
+	min-height: 700px;
+}
+#biglogo{
+	margin: 0 auto;
+	width: 514px;
+	height: 250px;
+	display: block;
+}
+.intro-heading{
+	text-align: center;
+	color: #999;
+	font-size: 28pt;
+	font-family: 'Myriad pro';
+	border-bottom: 1px solid #afafaf;
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+.intro-heading .coding-hive{
+	color: #ebab00;
+}
+.intro-text{
+	width: 800px;
+	margin: 0 auto;
+	text-align: justify;
+}
+#register-button{
+	width: 242px;
+	height: 70px;
+	display: block;
+	background: url('../images/register-button.png') no-repeat;
+	float: left;
+	margin-left: 225px;
+	margin-top: 20px;
+
+}
+#login-button{
+	width: 242px;
+	height: 70px;
+	display: block;
+	background: url('../images/login-button.png') no-repeat;
+	float: left;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+#register-form input[type=text], #register-form input[type=password] {
+	width: 252px;
+	height: 39px;
+	background: url('../images/register-input.png') no-repeat;
+	padding-left: 10px;
+	padding-right: 50px;
+	color: #3e3e3e;
+	font-weight: bold;
+	margin-top: 13px;
+}
+#register-form input[type=submit]{
+	width: 242px;
+	height: 70px;
+	display: block;
+	background: url('../images/register-button.png') no-repeat;
+	margin: 0 auto;
+}
+#login-form input[type=text], #login-form input[type=password] {
+	width: 212px;
+	height: 39px;
+	background: url('../images/login-input.png') no-repeat;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 13px;
+	color: #3e3e3e;
+	font-weight: bold;
+
+}
+#login-form input[type=text]:first-of-type,#register-form input[type=text]:first-of-type {
+	margin-top: 0;
+}
+#submit-bg{
+	position: absolute;
+	left: 295px;
+	top: 20px;
+	width: 88px;
+	height: 95px;
+	background: url('../images/arrow-bg.png');
+}
+#login-form input[type=submit]{
+	width: 68px;
+	height: 76px;
+	margin: 6px auto;
+	background: url('../images/arrow.png') no-repeat;
+}
+#errors{
+    font-size: 10pt;
+    color: #ff0000;
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.verify
+{
+    margin-top: 4px;
+    margin-left: 9px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
